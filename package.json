@@ -1,0 +1,25 @@
+{
+  "name": "alibaba-scraper",
+  "version": "1.0.0",
+  "description": "CLI scraper that fetches product data from Alibaba search pages and prints normalized JSON.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:query": "SEARCH_QUERY=laptop node src/index.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "alibaba",
+    "scraper",
+    "crawler",
+    "cli",
+    "bitbash"
+  ],
+  "author": "Bitbash",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5"
+  }
+}
